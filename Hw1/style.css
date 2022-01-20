@@ -1,0 +1,44 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'poppins',arial,helvetica neue,sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding:10px
+
+}
+
+.container{
+  max-width: 700px;
+  width:100%;
+  padding:25px 20px;
+  border-radius:5px;
+
+}
+.container .title{
+    font-size: 25px;
+    color:black;
+    font-weight: 500;
+    /* margin-bottom: 40px; */
+    position:relative
+}
+
+.container .title::before{
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+
+}
