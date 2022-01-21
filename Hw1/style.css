@@ -14,9 +14,9 @@ body{
 
 
 .container{
-  max-width:700px;
+  max-width:500px;
   width:100%;
-  padding:25px 25px;
+  padding:20px 20px;
   border-radius:10px;
   box-shadow: 0 10px 10px rgba(0,0,0,0.15);
 }
@@ -24,6 +24,137 @@ body{
 .container .title{
   font-size:30px;
   text-align:center;
-  padding:30px 30px;
+  padding:5px 5px;
+  position:relative
 
 }
+
+
+.container form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin: 20px 0 12px 0;
+}
+
+.container form .phone-num{
+  display: flex;
+  margin: 20px 0 12px 0;
+}
+
+.container form .e-mail{
+  display: flex;
+  margin: 20px 0 12px 0;
+}
+
+.container form .password{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin: 20px 0 12px 0;
+
+}
+
+.container form .check-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin: 20px 0 12px 0;
+}
+
+.container form .button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin: 20px 0 12px 0;
+}
+
+
+form .user-details .input-box{
+  width: calc(100% / 2 - 20px);
+}
+
+form .phone-num .input-box{
+  width: 100%;
+}
+
+form .e-mail .input-box{
+  width: 100%
+}
+
+form .password .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+form .check-box .input-check{
+   margin-bottom: 10px;
+   margin-right: 50px;
+}
+
+form .check-box .input-box{
+  margin-bottom: 15px;
+  width: 330px
+}
+
+form .button .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+
+.user-details .input-box input{
+  height:45px;
+  width:100%;
+  outline:none;
+  border-radius:5px;
+  border: 1px solid #ccc;
+  padding-left:15px;
+  font-size: 16px;
+}
+
+.phone-num .input-box input{
+   height:45px;
+  width:100%;
+  outline:none;
+  border-radius:5px;
+  border: 1px solid #ccc;
+  padding-left:15px;
+  font-size: 16px;
+}
+
+.e-mail .input-box input{
+  height:45px;
+  width:100%;
+  outline:none;
+  border-radius:5px;
+  border: 1px solid #ccc;
+  padding-left:15px;
+  font-size: 16px;
+}
+
+.password .input-box input{
+  height:45px;
+  width:100%;
+  outline:none;
+  border-radius:5px;
+  border: 1px solid #ccc;
+  padding-left:15px;
+  font-size: 16px;
+}
+
+.button .input-box button{
+  height:45px;
+  width:100%
+}
+
+
+
+
+
+
+
+
+
+
+
