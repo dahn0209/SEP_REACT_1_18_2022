@@ -12,82 +12,86 @@
 
   <div class='container'>
     <div class='title'>Sign Up</div>
+      <div class='content'>
+        <form action='#'method='post'>
 
-    <form id='signUp-form'>
+          <div class="user-details">
+            <div class="input-box">
+              <label class='label'>
+                <input type='text' placeholder="First Name" required >
+              </label>
+            </div>
+            <div class="input-box">
+              <label class='label'>
+                <input type='text' placeholder="Last Name" required >
+              </label>
+            </div>
+          </div>
 
-      <div class='row-row-space'>
-        <div class=col-2>
-          <label class='label'>
-            <input class='input--style-4' type='text' id="firstName" placeholder="First Name" >
-          </label>
-        </div>
-        <div class=col-2>
-          <label class='label'>
-            <input class='input--style-4' type='text' id="lastName" placeholder="Last Name" >
-          </label>
-        </div>
+          <div class='phone-num'>
+             <div class="input-box">
+              <label class='label'>
+                <input type='tel' placeholder="Mobile No." pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"required >
+              </label>
+            </div>
+          </div>
+
+          <div class='e-mail'>
+            <div class="input-box">
+              <label class='label'>
+                <input type='email' placeholder="Email Address." required >
+              </label>
+            </div>
+          </div>
+
+          <div class='password'>
+            <div class="input-box">
+              <label class='label'>
+                <input type='password' placeholder="Password" required >
+              </label>
+            </div>
+            <div class="input-box">
+              <label class='label'>
+                <input type='password' placeholder="Confirm Password" required >
+              </label>
+            </div>
+          </div>
+
+          <div class='check-box'>
+            <div class='agree-checkbox'>
+             <input type='checkbox' name='agree'>
+              <label class='label'>
+                <b>I Agree</b>
+              </label>
+            </div>
+            <div class='agree-checkbox'>
+              <p>By clicking <span>Register</span> you agree to our <a href='#'>Terms and Conditions</a> set out by this site, including our Cookie Use
+              </p>
+            </div>
+          </div>
+
+          <div class='button'>
+            <div class="input-box">
+              <button type='submit' value='Register'>
+                Register
+              </button>
+            </div>
+            <div class="input-box">
+              <button  type='button' value='Sign in'>
+                 Sign In
+              </button>
+            </div>
+          </div>
+
+
+
+
+
+
+
+        </form>
       </div>
-
-      <div class='row-row-space'>
-        <div class=col-2>
-         <label class='label'>
-           <input class='input--style-4' type='text' id="phone" placeholder="Mobile No." >
-          </label>
-        </div>
-      </div>
-
-      <div class='row-row-space'>
-        <div class=col-2>
-          <label class='label'><input class='input--style-4' type='email' id="email" placeholder="Email Address" >
-          </label>
-        </div>
-      </div>
-
-       <div class='row-row-space'>
-        <div class=col-2>
-          <label class='label'><input class='input--style-4' type='password' id="password" placeholder="Password" >
-          </label>
-        </div>
-        <div class=col-2>
-          <label class='label'>
-            <input class='input--style-4' type='password' id="confirmPassword" placeholder="Confirm Password" >
-          </label>
-        </div>
-
-      <div class='row-row-space'>
-        <div class=col-2>
-          <label class='label'>
-            <input class='input--style-4' type='checkbox' id="checkbox" name='agree'>
-            <b>I Agree</b>
-          </label>
-          <p>By clicking <span>Register</span> you agree to our <a>Terms and Conditions</a> set out by this site, including our Cookie Use
-          </p>
-        </div>
-      </div>
-
-      <div class='row-row-space'>
-        <div class=col-2>
-          <button class='btn btn--radius-2 btn--blue' type='submit' value='Register'>Register</button>
-        </div>
-        <div class=col-2>
-          <div class=col-2>
-            <button class='btn btn--radius-2 btn--green' type='button' value='Sign in'>Sign In</button>
-        </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-    </form>
-
-
-
-
-  </div>
+    </div>
 
 </body>
 </html>
