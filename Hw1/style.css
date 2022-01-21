@@ -23,9 +23,7 @@ body{
 .container .title{
   font-size:27px;
   text-align:center;
-  padding:5px 5px;
   position:relative
-
 }
 
 .content form .user-details{
