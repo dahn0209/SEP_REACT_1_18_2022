@@ -28,38 +28,35 @@ body{
 }
 
 
-.container form .user-details{
+.content form .user-details{
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
-  margin: 10px 0 12px 0;
+  margin: 10px 0 10px 0;
 }
 
-.container form .phone-num{
+.content form .phone-num{
   display: flex;
-  flex-wrap:wrap;
-  margin: 10px 0 12px 0;
+  margin: 10px 0 10px 0;
 }
 
-.container form .e-mail{
+.content form .e-mail{
   display: flex;
-  flex-wrap:wrap;
-  margin: 10px 0 12px 0;
+  margin: 10px 0 10px 0;
 }
 
-.container form .password{
+.content form .password{
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
-  margin: 10px 0 0 0;
-
+  margin: 10px 0 10px 0;
 }
 
-.container form .check-box{
+.content form .check-box{
   display: flex;
   justify-content:space-between;
   margin-top: 10px;
-
+  margin-bottom:10px
 }
 
 .container form .button{
@@ -85,9 +82,7 @@ form .password .input-box{
   width: calc(100% / 2 - 15px);
 }
 
-form .check-box{
-  height:40px
-}
+
 
 form .check-box .input-check{
   margin-top:15px;
