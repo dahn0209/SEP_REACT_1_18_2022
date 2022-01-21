@@ -6,23 +6,21 @@
 }
 body{
   display:flex;
-  height:100vh;
   justify-content:center;
   align-items:center;
-  padding:10px
+  padding: 20px
 }
 
-
 .container{
-  max-width:500px;
+  max-width:700px;
   width:100%;
-  padding:20px 20px;
-  border-radius:10px;
-  box-shadow: 0 10px 10px rgba(0,0,0,0.15);
+  padding:25px 30px;
+  border-radius:5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
 }
 
 .container .title{
-  font-size:30px;
+  font-size:27px;
   text-align:center;
   padding:5px 5px;
   position:relative
@@ -34,44 +32,45 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
-  margin: 20px 0 12px 0;
+  margin: 10px 0 12px 0;
 }
 
 .container form .phone-num{
   display: flex;
-  margin: 20px 0 12px 0;
+  flex-wrap:wrap;
+  margin: 10px 0 12px 0;
 }
 
 .container form .e-mail{
   display: flex;
-  margin: 20px 0 12px 0;
+  flex-wrap:wrap;
+  margin: 10px 0 12px 0;
 }
 
 .container form .password{
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
-  margin: 20px 0 12px 0;
+  margin: 10px 0 0 0;
 
 }
 
 .container form .check-box{
   display: flex;
-  flex-wrap: wrap;
   justify-content:space-between;
-  margin: 20px 0 12px 0;
+  margin-top: 10px;
+
 }
 
 .container form .button{
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
-  margin: 20px 0 12px 0;
 }
 
 
 form .user-details .input-box{
-  width: calc(100% / 2 - 20px);
+  width: calc(100% / 2 - 15px);
 }
 
 form .phone-num .input-box{
@@ -83,23 +82,44 @@ form .e-mail .input-box{
 }
 
 form .password .input-box{
-  margin-bottom: 15px;
-  width: calc(100% / 2 - 20px);
+  width: calc(100% / 2 - 15px);
+}
+
+form .check-box{
+  height:40px
 }
 
 form .check-box .input-check{
-   margin-bottom: 10px;
-   margin-right: 50px;
+  margin-top:15px;
+  margin-right: 20px;
+  font-size: 13px
 }
 
 form .check-box .input-box{
   margin-bottom: 15px;
-  width: 330px
+  width: 370px;
+  font-size: 13px;
+}
+
+.check-box .input-box span{
+  color:white;
+  background-color:#1E90FF;
+  font-size: 10px;
+  border-radius:3px;
+  outline:none;
+  border:none;
+  padding:3px;
+  padding-left:4px;
+  padding-right:4px;
+}
+
+.check-box .input-box a{
+  text-decoration: none;
 }
 
 form .button .input-box{
   margin-bottom: 15px;
-  width: calc(100% / 2 - 20px);
+  width: calc(100% / 2 - 15px);
 }
 
 
@@ -111,16 +131,18 @@ form .button .input-box{
   border: 1px solid #ccc;
   padding-left:15px;
   font-size: 16px;
+  border-bottom-width: 2px;
 }
 
 .phone-num .input-box input{
-   height:45px;
+  height:45px;
   width:100%;
   outline:none;
   border-radius:5px;
   border: 1px solid #ccc;
   padding-left:15px;
   font-size: 16px;
+  border-bottom-width: 2px;
 }
 
 .e-mail .input-box input{
@@ -131,6 +153,7 @@ form .button .input-box{
   border: 1px solid #ccc;
   padding-left:15px;
   font-size: 16px;
+  border-bottom-width: 2px;
 }
 
 .password .input-box input{
@@ -141,11 +164,47 @@ form .button .input-box{
   border: 1px solid #ccc;
   padding-left:15px;
   font-size: 16px;
+  border-bottom-width: 2px;
 }
 
 .button .input-box button{
   height:45px;
-  width:100%
+  width:100%;
+  outline:none;
+  color:white;
+  font-size: 15px;
+  border-radius:5px;
+  border:none;
+}
+
+.registerBtn{
+  background-color:rgb(31, 143, 255)
+}
+
+.signInBtn{
+  background-color:#4CAF50
+}
+
+
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #1E90FF;
+}
+
+.phone-num .input-box input:focus,
+.phone-num .input-box input:valid{
+  border-color: #1E90FF;
+}
+
+.e-mail .input-box input:focus,
+.e-mail .input-box input:valid{
+  border-color: #1E90FF;
+}
+
+.password .input-box input:focus,
+.password .input-box input:valid{
+  border-color: #1E90FF;
 }
 
 
