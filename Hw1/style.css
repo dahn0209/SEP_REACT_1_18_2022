@@ -38,12 +38,12 @@ body{
   margin: 10px 0 10px 0;
 }
 
-.content form .e-mail{
+.content form .email-detail{
   display: flex;
   margin: 10px 0 10px 0;
 }
 
-.content form .password{
+.content form .password-detail{
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
@@ -57,7 +57,7 @@ body{
   margin-bottom:10px
 }
 
-.container form .button{
+.container form .button-detail{
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
@@ -71,11 +71,11 @@ form .phone-num .input-box{
   width: 100%;
 }
 
-form .e-mail .input-box{
+form .email-detail .input-box{
   width: 100%
 }
 
-form .password .input-box{
+form .password-detail .input-box{
   width: calc(100% / 2 - 15px);
 }
 
@@ -107,7 +107,7 @@ form .check-box .input-box{
   text-decoration: none;
 }
 
-form .button .input-box{
+form .button-detail .input-box{
   margin-bottom: 15px;
   width: calc(100% / 2 - 15px);
 }
@@ -134,7 +134,7 @@ form .button .input-box{
   border-bottom-width: 2px;
 }
 
-.e-mail .input-box input{
+.email-detail .input-box input{
   height:45px;
   width:100%;
   outline:none;
@@ -145,7 +145,7 @@ form .button .input-box{
   border-bottom-width: 2px;
 }
 
-.password .input-box input{
+.password-detail .input-box input{
   height:45px;
   width:100%;
   outline:none;
@@ -156,7 +156,7 @@ form .button .input-box{
   border-bottom-width: 2px;
 }
 
-.button .input-box button{
+.button-detail .input-box button{
   height:45px;
   width:100%;
   outline:none;
@@ -184,13 +184,13 @@ form .button .input-box{
   border-color: #1E90FF;
 }
 
-.e-mail .input-box input:focus,
-.e-mail .input-box input:valid{
+.email-detail .input-box input:focus,
+.email-detail .input-box input:valid{
   border-color: #1E90FF;
 }
 
-.password .input-box input:focus,
-.password .input-box input:valid{
+.password-detail .input-box input:focus,
+.password-detail .input-box input:valid{
   border-color: #1E90FF;
 }
 
