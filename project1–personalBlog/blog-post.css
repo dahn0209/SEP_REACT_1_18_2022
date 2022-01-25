@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+h2, h3{
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+
+}
+
+a{
+  color:rgb(36, 181, 244)
+}
+
+header {
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  background: white;
+}
+header nav{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding-top:50px;
+}
+
+nav a{
+  font-size:15px;
+  color:rgb(205, 203, 203);
+}
+
+nav h2{
+  text-align:center;
+  padding-left:15px;
+  padding-right:15px;
+  text-decoration:underline;
+}
+
+section {
+  float: left;
+  width: 75%;
+}
+
+section h5{
+  color:rgb(188, 187, 187);
+}
+
+section img {
+  background-color:white;
+  height:200px;
+}
+
+section button{
+  margin:20px;
+  padding:10px;
+  color:grey;
+  background-color:white;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.15);
+  border:none;
+  border-radius:5px;
+}
+
+aside {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+aside h2{
+  font-style:italic
+}
+
+aside h3{
+  font-style:italic;
+}
+
+aside img{
+  height:300px;
+  padding:20px;
+}
+
+
+
+article {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(246, 239, 239);
+  margin-top: 20px;
+  border-radius:10px;
+}
+footer p{
+  color:grey;
+  font-size:15px
+}
+
+
+@media screen and (max-width: 800px) {
+  section, aside {
+    width: 100%;
+    padding: 0;
+  }
+}
