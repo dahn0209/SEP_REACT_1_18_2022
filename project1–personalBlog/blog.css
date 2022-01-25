@@ -8,33 +8,33 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
-  padding: 20px
+  padding: 10px
 }
 
 .body-container{
-  padding: 20px;
-  border:20px solid #9B51E0 ;
-  margin:20px;
+  padding: 10px;
+  border:10px;
+  margin:10px;
   width:100%;
   display:flex;
   flex-direction:column;
   align-items:center;
   border-radius:5px;
-  background-color:#e9e1e1;
 }
 /* Header CSS */
  .head-wrapper{
   display:flex;
+  height:auto;
   width:100%;
   justify-content:center;
   padding: 5px;
-  border:5px solid rgb(172, 45, 45);
+  border:5px;
   margin:10px;
   border-radius:5px;
-  background-color:rgb(88, 156, 88);
  }
 
  header{
+   height:auto;
    width:100%;
  }
 
@@ -42,16 +42,17 @@ body{
   display:flex;
   justify-content:space-between;
   align-items:center;
+
 }
 
-.header-boxes .header-box{
+nav .header-box{
   height:80px;
   width:100%;
-  border:5px solid black;
+  border:5px
 }
 
 .header-box a{
-  text-decoration:none
+  color:rgb(160, 160, 160)
 }
 
 .header-box a p{
@@ -63,32 +64,34 @@ body{
   font-size: 25px;
   text-align:center;
   position:relative;
+  text-decoration:underline;
 }
 
 .header-box input{
   margin-top: 20px;
-  height:30px;
-  border-radius:5px;
+  height:20px;
+  border-style:ridge;
+  border-radius:5px ;
+  padding:12px;
   width: 100%;
 }
 
 /*  blog CSS */
 
-.blog-wrapper{
+main{
   display:flex;
   width:100%;
   justify-content:center;
   padding: 5px;
-  border:5px solid rgb(172, 45, 45);
+  border:5px;
   margin:10px;
   border-radius:5px;
-  background-color:rgb(88, 156, 88);
+
  }
 
  .column-body{
    width:100%;
   justify-content:space-between;
-
  }
 
  .column-body .blog-columns {
@@ -98,19 +101,101 @@ body{
 }
 
 .blog-columns .blog-column{
-  /* height:700px; */
-  width:100%;
-  border:5px solid black;
+  width:calc(100% / 2 - 15px);
+  /* width:100%; */
+  border:5px;
   display:flex;
   flex-direction:column;
 }
-.blog-column .blog-card{
-  height:200px;
-  width:100%;
-  border:3px solid black;
+
+.blog-column article   {
+  height: auto;
+  width:auto;
+  border: 2px;
+  padding:15px;
   border-radius:5px;
+  border-spacing:20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.blog-column .blog-Russia{
+  background-image:url('images/russian-flag.png');
+  background-size:100% 100%;
 }
 
+.blog-column .blog-Serbia{
+  background-image:url('images/Serbian.webp');
+  background-size:100% 100%;
+}
+
+.blog-column .blog-Greece{
+  background-image:url('images/greece-flag.png');
+  background-size:100% 100%;
+}
+
+.blog-column .blog-Greek{
+  background-image:url('images/greek-design.jpeg');
+  background-size:100% 100%;
+}
+
+.blog-column .blog-Roman{
+  background-image:url('images/roman-design.jpeg');
+  background-size:100% 100%;
+}
+
+.blog-column .blog-Modern{
+  background-image:url('images/modern-design.jpeg');
+  background-size:100% 100%;
+}
+
+article section{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+section .card-info{
+
+  border-radius:5px;
+  border: 2px;
+  background-color:#ffffff;
+  opacity:0.6;
+
+}
+
+article section h3{
+  margin-bottom:8px;
+  font-family: arial;
+  font-size:15px
+}
+
+time{
+  color:dark grey;
+}
+
+.world-category{
+  color:blue;
+}
+
+.design-category{
+  color:green;
+}
+
+
+section p{
+  margin-top:5px;
+  margin-bottom: 60px;
+}
+
+section a{
+  color:blue;
+  font-size:12px;
+  font-family:arial
+}
 
 /* footer CSS */
 .footer-wrapper{
@@ -119,18 +204,29 @@ body{
   width:100%;
   justify-content:center;
   padding: 5px;
-  border:5px solid rgb(172, 45, 45);
+  border:5px;
   margin:10px;
   border-radius:5px;
-  background-color:Grey;
+  background-color:rgb(244, 238, 238);
+  box-shadow: 0 5px 10px rgba(188, 188, 188, 0.15);
  }
 
 .footer-container{
   margin-top:20px;
   text-align:center;
+  font-family:arial;
+  font-size:13px;
+  color:grey;
  }
-  a .footer-paragraph{
+
+ .footer-container p a{
+   color:rgb(55, 163, 230)
+ }
+
+ .footer-container  a{
    margin:10px;
+    color:rgb(55, 163, 230)
+
  }
 
 
